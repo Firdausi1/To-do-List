@@ -43,7 +43,7 @@ function HomePage(){
     return (
         <Layout email={user.email}>
             <h1 className={homeStyles.heading}>Hello {user.name}!</h1>
-            <h4>Today's Task</h4>
+            <h4>Today&apos;s Task</h4>
             <AddToDo/>
             <ul className={homeStyles.list}>
                 {data.map((task, index) => (

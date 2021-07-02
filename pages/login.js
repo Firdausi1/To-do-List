@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import formStyles from '../styles/Form.module.css';
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 function Register() {
   const router = useRouter()
@@ -43,7 +44,7 @@ function Register() {
             </div>
           </form>
         </div>
-      <div className={formStyles.imageContainer}><img src="./stil-ck0i9Dnjtj0-unsplash.jpg" className={formStyles.image}/></div>
+      <div className={formStyles.imageContainer}><Image src="./stil-ck0i9Dnjtj0-unsplash.jpg" className={formStyles.image} alt="banner"/></div>
       </div>
     )
   }
