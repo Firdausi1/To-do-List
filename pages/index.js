@@ -1,7 +1,3 @@
-import DoneIcon from '@material-ui/icons/Done';
-import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank';
-import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
-import DeleteIcon from '@material-ui/icons/Delete';
 import homeStyles from '../styles/Home.module.css';
 import Layout from '../components/Layout';
 import AddToDo from '../components/AddToDo';

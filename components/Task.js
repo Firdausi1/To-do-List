@@ -1,7 +1,5 @@
 import homeStyles from '../styles/Home.module.css';
-import DoneIcon from '@material-ui/icons/Done';
 import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank';
-import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 import DeleteIcon from '@material-ui/icons/Delete';
 
 function Task({item, id, completed, index, data, setData}){

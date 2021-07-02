@@ -31,7 +31,7 @@ function Sidebar(){
                 <li className={sidebarStyles.listItem}><CategoryIcon/><span className={sidebarStyles.text}>Categories</span></li>
                 <li className={sidebarStyles.listItem}><AssignmentTurnedInIcon/><span className={sidebarStyles.text}>Completed</span></li>
             </ul>
-            <div className={sidebarStyles.logout} onClick={logOut}>Log Out <ExitToAppIcon/></div>
+            {/* <div className={sidebarStyles.logout} onClick={logOut}>Log Out <ExitToAppIcon/></div> */}
         </div>
     )
 }

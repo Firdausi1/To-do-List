@@ -29,7 +29,6 @@ function Register() {
         if(result){
           router.push("/")
         }
-        // result.user => 'Ada Lovelace'
       }
     
   
