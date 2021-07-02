@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    color: #090C02;
+}
+
+.body{
+    width: 75%;
+    padding-left: 5%;
+    padding-right: 5%;
+}

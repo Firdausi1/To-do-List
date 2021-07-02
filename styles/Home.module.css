@@ -1,0 +1,58 @@
+.heading{
+    font-size: 48px;
+}
+.list{
+    list-style: none;
+    padding: 0;
+    width: 50%;
+    overflow-y: scroll;
+    max-height: 50vh;
+}
+.listItem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.listItemIcon{
+    position: absolute;
+    right: -50px;
+    text-align: center;
+    width: 50px;
+    cursor: pointer;
+    display: none;
+    color: rgb(228, 47, 47);
+}
+.listItem:hover .listItemIcon{
+    display: inline;
+    right: 0;
+}
+.listText{
+    display: inline-block;
+    margin-left: 15px;
+}
+.icon{
+    color: #F90093;
+}
+.form{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+.input{
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+.button{
+    border: none;
+    color: #3A1772;
+}

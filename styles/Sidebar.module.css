@@ -1,0 +1,45 @@
+.container{
+    width: 25%;
+    height: 100vh;
+    background-color: #3A1772;
+    padding-top: 2%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    margin: 0;
+    padding-left: 15%;
+    align-self: flex-start;
+}
+
+.list{
+    height: 30%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.listItem{
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.logout{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 30px;
+    right: 50px;
+}
+
+
+
