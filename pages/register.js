@@ -2,11 +2,12 @@ import Link from 'next/link';
 import formStyles from '../styles/Form.module.css';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
+import banner from '../public/banner.jpg'
 
 function Register() {
   const router = useRouter()
     const registerUser = async event => {
-        event.preventDefault()
+        event.preventDefault() 
     
         const res = await fetch(
             "https://api-nodejs-todolist.herokuapp.com/user/register",
@@ -47,7 +48,7 @@ function Register() {
             </div>
           </form>
         </div>
-      <div className={formStyles.imageContainer}><Image src="./stil-ck0i9Dnjtj0-unsplash.jpg" className={formStyles.image} alt="banner"/></div>
+      <div className={formStyles.imageContainer}><Image src={banner} className={formStyles.image} alt="banner" width={500} height={670}/></div>
       </div>
     )
   }
