@@ -4,6 +4,7 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import navStyles from '../styles/Navbar.module.css';
 
 function Navbar({email}){
+    
     return (
         <div className={navStyles.container}>
             <div className={navStyles.searchBar}>
