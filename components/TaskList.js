@@ -47,7 +47,7 @@ function Tasklist({ tasks }) {
             </form>
             <ul className={homeStyles.list}>
                 {todo.length >= 1 ? todo.map((task, index) => (
-                    <Task task={task} setTodo= {setTodo} todo = {todo} index={index}/>
+                    <Task task={task} setTodo= {setTodo} todo = {todo} index={index} key={task._id}/>
                 )) : "Enter a todo item" }
             </ul>
         </>
